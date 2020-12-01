@@ -1,0 +1,152 @@
+/*baner*/
+.baner {
+  flex-basis: 100%;
+  height: 89.5vh;
+  overflow: hidden;
+  background: url(../images/baner.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.baner-h1 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.baner-h1 > h1 {
+  padding: 1em;
+  border: 10px solid white;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.baner-tekst {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.baner-tekst > a {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.baner-tekst > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.fas.fa-arrow-circle-up {
+  animation: anim1 2s linear infinite;
+  text-align: center;
+  font-size: 2.5rem;
+}
+@keyframes anim1 {
+  0% {
+    transform: translateY(1em);
+  }
+  50% {
+    transform: translateY(3em);
+  }
+  100% {
+    transform: translateY(1em);
+  }
+}
+@keyframes anim2 {
+  0% {
+    transform: translateY(1em);
+  }
+  50% {
+    transform: translateY(2em);
+  }
+  100% {
+    transform: translateY(1em);
+  }
+}
+@media screen and (max-width: 1290px) {
+  .baner {
+    flex-direction: column;
+    height: 88vh;
+  }
+  .baner-h1 {
+    width: 100%;
+    height: 50%;
+  }
+  .baner-h1 > h1 {
+    padding: 0.65em;
+    border: 7.5px solid white;
+  }
+  .baner-tekst {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .baner {
+    height: 88vh;
+  }
+}
+@media screen and (max-width: 445px) {
+  .baner {
+    height: 70vh;
+  }
+  .baner-h1 > h1 {
+    padding: 0.5em;
+    border: 5px solid white;
+    font-size: 2.5rem;
+  }
+  .baner-tekst > a {
+    font-size: 1.5rem;
+  }
+  .fas.fa-arrow-circle-up {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .baner {
+    height: 60vh;
+  }
+  .baner-h1 > h1 {
+    padding: 0.25em;
+    border: 2.5px solid white;
+    font-size: 2rem;
+  }
+  .baner-tekst > a {
+    font-size: 1.4rem;
+  }
+  .fas.fa-arrow-circle-up {
+    font-size: 1.4rem;
+    animation: anim2 1.25s linear infinite;
+  }
+}
+@media screen and (max-width: 315px) {
+  .baner {
+    height: 40vh;
+  }
+  .baner-h1 > h1 {
+    padding: 0.25em;
+    border: 1.8px solid white;
+    font-size: 1.8rem;
+  }
+  .baner-tekst > a {
+    font-size: 1.1rem;
+  }
+  .fas.fa-arrow-circle-up {
+    font-size: 1.1rem;
+    animation: anim2 1.25s linear infinite;
+  }
+}
+@media screen and (max-width: 270px) {
+  .baner-h1 > h1 {
+    padding: 0;
+    border: 1.8px solid white;
+    font-size: 2rem;
+  }
+}

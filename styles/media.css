@@ -1,0 +1,126 @@
+@media screen and (max-width: 1290px) {
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "hamburger logo icons";
+  }
+  .div-hamburger {
+    display: flex;
+  }
+  .list-menu {
+    display: none;
+  }
+  .div-search {
+    display: none;
+  }
+  .fas.fa-bars {
+    display: flex;
+  }
+  .logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 445px) {
+  .nav {
+    height: 80px;
+  }
+  .logo {
+    height: 50px;
+  }
+  .fas.fa-bars {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .fas.fa-times {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 2.345rem;
+  }
+  .far.fa-user {
+    margin-left: 0.8rem;
+    font-size: 1.6rem;
+  }
+  .fas.fa-shopping-cart {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .nav {
+    height: 75px;
+  }
+  .logo {
+    height: 45px;
+  }
+  .fas.fa-bars {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    font-size: 1.6rem;
+  }
+  .fas.fa-times {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    font-size: 2.145rem;
+  }
+  .far.fa-user {
+    margin-left: 0.6rem;
+    font-size: 1.4rem;
+  }
+  .fas.fa-shopping-cart {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 315px) {
+  .nav {
+    height: 60px;
+  }
+  .logo {
+    height: 35px;
+  }
+  .fas.fa-bars {
+    font-size: 1.4rem;
+  }
+  .fas.fa-times {
+    font-size: 1.945rem;
+  }
+  .far.fa-user {
+    margin-left: 0.4rem;
+    font-size: 1.2rem;
+  }
+  .fas.fa-shopping-cart {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 270px) {
+  .nav {
+    height: 50px;
+  }
+  .logo {
+    height: 30px;
+  }
+  .fas.fa-bars {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+  }
+  .fas.fa-times {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    font-size: 1.745rem;
+  }
+  .far.fa-user {
+    margin-left: 0.2rem;
+    font-size: 1rem;
+  }
+  .fas.fa-shopping-cart {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+}
