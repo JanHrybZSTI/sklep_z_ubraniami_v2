@@ -22,6 +22,7 @@
 }
 .main-opis > a > h2 {
   font-size: 2rem;
+  text-transform: uppercase;
 }
 .div-odziez {
   text-decoration: none;
@@ -66,7 +67,7 @@
   align-items: center;
 }
 .shadow {
-  transition: 2s;
+  transition: 1.8s;
 }
 
 @media screen and (max-width: 1680px) {
@@ -169,7 +170,7 @@
 }
 @media screen and (max-width: 470px) {
   .main-opis > a > h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .odziez-opis,
   .buty-opis,
@@ -188,7 +189,7 @@
 }
 @media screen and (max-width: 370px) {
   .main-opis > a > h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .odziez-opis,
   .buty-opis,
