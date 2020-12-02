@@ -1,7 +1,7 @@
 /*baner*/
 .baner {
   flex-basis: 100%;
-  height: 89.5vh;
+  height: 100vh;
   overflow: hidden;
   background: url(../images/baner.jpg) no-repeat center;
   background-size: cover;
@@ -73,7 +73,7 @@
 @media screen and (max-width: 1290px) {
   .baner {
     flex-direction: column;
-    height: 88vh;
+    height: 98vh;
   }
   .baner-h1 {
     width: 100%;
@@ -90,12 +90,12 @@
 }
 @media screen and (max-width: 500px) {
   .baner {
-    height: 88vh;
+    height: 98vh;
   }
 }
 @media screen and (max-width: 445px) {
   .baner {
-    height: 70vh;
+    height: 78vh;
   }
   .baner-h1 > h1 {
     padding: 0.5em;
@@ -111,7 +111,7 @@
 }
 @media screen and (max-width: 340px) {
   .baner {
-    height: 60vh;
+    height: 68vh;
   }
   .baner-h1 > h1 {
     padding: 0.25em;
@@ -128,7 +128,7 @@
 }
 @media screen and (max-width: 315px) {
   .baner {
-    height: 40vh;
+    height: 48vh;
   }
   .baner-h1 > h1 {
     padding: 0.25em;
