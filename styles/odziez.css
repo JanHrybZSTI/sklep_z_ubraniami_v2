@@ -62,8 +62,41 @@ a {
   }
 }
 @media screen and (max-width: 400px) {
+  .odziez-h1 {
+    font-size: 2.2rem;
+  }
+  .odziez-opis {
+    font-size: 1rem;
+  }
+  .odziez-cena {
+    font-size: 0.95rem;
+  }
   .main-odziez {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .image-container {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .odziez-picture {
+    border-radius: 2.5%;
+    width: 250px;
+    height: 360px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .main-odziez {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
+  .odziez-h1 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 250px) {
+  .main-odziez {
+    padding-left: 0.15em;
+    padding-right: 0.15em;
   }
 }
